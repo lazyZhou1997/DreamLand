@@ -1,6 +1,8 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameControl : MonoBehaviour {
 
@@ -18,5 +20,11 @@ public class GameControl : MonoBehaviour {
 	public void ExitGame()
 	{
 		Application.Quit();
+	}
+
+	//加载下一个场景
+	public void LoadNextScene(String nextSceneName)
+	{
+		SceneManager.LoadScene(nextSceneName);
 	}
 }

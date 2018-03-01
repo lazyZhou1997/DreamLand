@@ -4,8 +4,63 @@
     <e p="C:\Users\Admin\.Rider2017.3\system\resharper-host\local\Transient\ReSharperHost\v11\SolutionCaches\_DreamLand.-593432533.00" t="ExcludeRecursive" />
     <e p="F:\unity\DreamLand" t="IncludeRecursive">
       <e p="Assembly-CSharp-Editor-firstpass.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="EasyTouch" t="Include">
+          <e p="Plugins" t="Include">
+            <e p="_C#-Event-Template" t="Include">
+              <e p="C_EasyButtonTemplate.cs" t="Include" />
+              <e p="C_EasyJoystickTemplate.cs" t="Include" />
+              <e p="C_EasyTouchTemplate.cs" t="Include" />
+            </e>
+            <e p="EasyButton.cs" t="Include" />
+            <e p="EasyJoystick.cs" t="Include" />
+            <e p="EasyTouch.cs" t="Include" />
+            <e p="EasyTouchInput.cs" t="Include" />
+            <e p="Editor" t="Include">
+              <e p="GUIEasyButtonCallBack.cs" t="Include" />
+              <e p="GUIEasyButtonInspector.cs" t="Include" />
+              <e p="GUIEasyJoystickCallBack.cs" t="Include" />
+              <e p="GUIEasyJoystickInspector.cs" t="Include" />
+              <e p="GUIEasytouchCallBack.cs" t="Include" />
+              <e p="GUIEasyTouchInspector.cs" t="Include" />
+              <e p="GUIEasyTouchMenu.cs" t="Include" />
+              <e p="HTGUILayout.cs" t="Include" />
+            </e>
+            <e p="Finger.cs" t="Include" />
+            <e p="Gesture.cs" t="Include" />
+            <e p="MonoSingleton.cs" t="Include" />
+            <e p="MovingJoystick.cs" t="Include" />
+            <e p="VirtualScreen.cs" t="Include" />
+          </e>
+        </e>
+        <e p="Editor" t="Include">
+          <e p="Vuforia" t="Include">
+            <e p="CylinderTargetTextures" t="Include">
+              <e p="VuforiaMars_Images" t="Include">
+                <e p="authoringinfo.xml" t="Include" />
+              </e>
+            </e>
+            <e p="Emulator" t="Include">
+              <e p="VuforiaEmulator.xml" t="Include" />
+            </e>
+            <e p="ForPrint" t="Include">
+              <e p="ModelTarget" t="Include">
+                <e p="readme_3dprint.txt" t="Include" />
+              </e>
+            </e>
+            <e p="TargetsetData" t="Include">
+              <e p="VuforiaMars_Object_info.xml" t="Include" />
+            </e>
+            <e p="VuforiaMars_ModelTarget" t="Include">
+              <e p="authoringinfo.xml" t="Include" />
+            </e>
+            <e p="VuforiaMars_VuMark" t="Include">
+              <e p="authoringinfo.xml" t="Include" />
+            </e>
+          </e>
+        </e>
         <e p="Plugins" t="Include">
           <e p="Editor" t="Include">
             <e p="JetBrains" t="Include">
@@ -14,9 +69,43 @@
           </e>
         </e>
         <e p="Script" t="Include">
+          <e p="ChangeLightController.cs" t="Include" />
+          <e p="CharacterDirectionController.cs" t="Include" />
           <e p="GameControl.cs" t="Include" />
-          <e p="TestRay.cs" t="Include" />
-          <e p="TestRay2.cs" t="Include" />
+          <e p="GameSetting.cs" t="Include" />
+          <e p="MoveController.cs" t="Include" />
+          <e p="MusicControl.cs" t="Include" />
+          <e p="ShadowDetect.cs" t="Include" />
+        </e>
+        <e p="StreamingAssets" t="Include">
+          <e p="Vuforia" t="Include">
+            <e p="DreamLand.xml" t="Include" />
+            <e p="VuforiaMars_Images.xml" t="Include" />
+            <e p="VuforiaMars_ModelTarget.xml" t="Include" />
+            <e p="VuforiaMars_Object_OT.xml" t="Include" />
+            <e p="VuforiaMars_VuMark.xml" t="Include" />
+          </e>
+        </e>
+        <e p="Vuforia" t="Include">
+          <e p="Editor" t="Include">
+            <e p="Scripts" t="Include">
+              <e p="OpenSourceInitializer.cs" t="Include" />
+            </e>
+          </e>
+          <e p="Scripts" t="Include">
+            <e p="DefaultInitializationErrorHandler.cs" t="Include" />
+            <e p="DefaultTrackableEventHandler.cs" t="Include" />
+          </e>
+          <e p="Shaders" t="Include">
+            <e p="BrightTexture.shader" t="Include" />
+            <e p="CameraDiffuse.shader" t="Include" />
+            <e p="ColoredLines.shader" t="Include" />
+            <e p="DepthContour.shader" t="Include" />
+            <e p="DepthMask.shader" t="Include" />
+            <e p="OutlineOpaque.shader" t="Include" />
+            <e p="Text3D.shader" t="Include" />
+            <e p="VertexLitWithZ.shader" t="Include" />
+          </e>
         </e>
       </e>
       <e p="DreamLand.sln" t="IncludeFlat" />
