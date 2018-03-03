@@ -72,22 +72,42 @@ public class RotateByTouch : MonoBehaviour {
 		else
 		{
 			//绕正前方法线向量旋转
-			Vector3 orthForward = OrthVector3(transform.forward);
+			Vector3 orthForward = OrthVector3(transform.forward,Vector3.up);
 
 			transform.Rotate(orthForward,y*Speed*Time.deltaTime,Space.World);
 		}
 
 	}
 
-	private Vector3 OrthVector3(Vector3 obj)
+	private Vector3 OrthVector3(Vector3 direction,Vector3 yAixs)
 	{
-		if (obj.x!=0)
+		float a1 = direction.x;
+		float b1 = NotZero(direction.y);
+		float c1 = NotZero(direction.z);
+		float a2 = yAixs.x;
+		float b2 = NotZero(yAixs.y);
+		float c2 = NotZero(yAixs.z);
+
+		float z = (-a1 * b2 + a2 * b1) / (c1 * b2 - c2 * b1);
+		float y = (-c1 * b2 * z - a1 * b2) / b1 * b2;
+
+		return new Vector3(1,y,z);
+	}
+
+	/// <summary>
+	/// 如果传入的参数为0，则将其值更改为0.001
+	/// </summary>
+	/// <param name="digit"></param>
+	/// <returns></returns>
+	private float NotZero(float digit)
+	{
+		if (0==digit)
 		{
-			return new Vector3(-(obj.y+obj.z)/obj.x,1,1);
+			return 0.001f;
 		}
 		else
 		{
-			return new Vector3(1,0,0);
+			return digit;
 		}
 	}
 

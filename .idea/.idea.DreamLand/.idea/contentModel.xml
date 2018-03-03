@@ -61,6 +61,21 @@
             </e>
           </e>
         </e>
+        <e p="game1" t="Include">
+          <e p="LeanTouch" t="Include">
+            <e p="Editor" t="Include">
+              <e p="LeanSelectable_Editor.cs" t="Include" />
+              <e p="LeanTouch_Editor.cs" t="Include" />
+            </e>
+            <e p="Scripts" t="Include">
+              <e p="LeanFinger.cs" t="Include" />
+              <e p="LeanGesture.cs" t="Include" />
+              <e p="LeanSelectable.cs" t="Include" />
+              <e p="LeanSnapshot.cs" t="Include" />
+              <e p="LeanTouch.cs" t="Include" />
+            </e>
+          </e>
+        </e>
         <e p="Plugins" t="Include">
           <e p="Editor" t="Include">
             <e p="JetBrains" t="Include">
@@ -69,12 +84,14 @@
           </e>
         </e>
         <e p="Script" t="Include">
-          <e p="ChangeLightController.cs" t="Include" />
           <e p="CharacterDirectionController.cs" t="Include" />
+          <e p="GameBegin.cs" t="Include" />
           <e p="GameControl.cs" t="Include" />
+          <e p="GameOver.cs" t="Include" />
           <e p="GameSetting.cs" t="Include" />
           <e p="MoveController.cs" t="Include" />
           <e p="MusicControl.cs" t="Include" />
+          <e p="RotateByTouch.cs" t="Include" />
           <e p="ShadowDetect.cs" t="Include" />
           <e p="Timer.cs" t="Include" />
         </e>

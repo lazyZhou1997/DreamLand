@@ -7,6 +7,8 @@ using System.Collections;
 public class MoveController : MonoBehaviour
 {
 
+	//LeanTouch对象
+	public GameObject LeanTouchObject;
 
 	//探测阴影的脚本
 	private ShadowDetect _shadowDetect;
@@ -25,17 +27,21 @@ public class MoveController : MonoBehaviour
 
 	{
 		EasyJoystick.On_JoystickMove += OnJoystickMove;
-		EasyJoystick.On_JoystickMoveEnd += OnJoystickMoveEnd;
+		EasyJoystick.On_JoystickTouchUp += OnJoystickMoveEnd;
+		EasyJoystick.On_JoystickTouchStart += OnJoystickMoveTouch;
 
 		//_rigidbody = GetComponent<Rigidbody>();
 	}
 
-
-
+	//移动摇杆开始
+	private void OnJoystickMoveTouch(MovingJoystick move)
+	{
+		//移动时取消LeanTouch的响应
+		LeanTouchObject.SetActive(false);
+	}
 
 
 	//移动摇杆结束
-
 	void OnJoystickMoveEnd(MovingJoystick move)
 
 	{
@@ -47,6 +53,8 @@ public class MoveController : MonoBehaviour
 			Debug.Log("移动停止");
 		}
 
+		//移动结束，激活LeanTouch对象
+		LeanTouchObject.SetActive(true);
 	}
 
 
@@ -63,8 +71,6 @@ public class MoveController : MonoBehaviour
 		{
 			return;
 		}
-
-
 
 		//获取摇杆中心偏移的坐标
 
