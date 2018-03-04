@@ -6,12 +6,11 @@ public class GameOver : MonoBehaviour
 {
 
 	//游戏开始的脚本
-	private GameBegin _gameBegin;
+	public GameBegin _gameBegin;
 
 	// Use this for initialization
 	void Start () {
-		//初始化游戏开始脚本
-		_gameBegin = GetComponent<GameBegin>();
+		
 	}
 	
 	// Update is called once per frame

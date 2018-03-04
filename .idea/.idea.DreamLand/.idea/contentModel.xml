@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\Admin\.Rider2017.3\system\resharper-host\local\Transient\ReSharperHost\v11\SolutionCaches\_DreamLand.-593432533.00" t="ExcludeRecursive" />
-    <e p="F:\unity\DreamLand" t="IncludeRecursive">
+    <e p="$USER_HOME$/Library/Caches/Rider2017.2/resharper-host/local/Transient/ReSharperHost/v10/SolutionCaches/_DreamLand.-1975188453.00" t="ExcludeRecursive" />
+    <e p="$PROJECT_DIR$" t="IncludeRecursive">
       <e p="Assembly-CSharp-Editor-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assembly-UnityScript.unityproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="EasyTouch" t="Include">
           <e p="Plugins" t="Include">
@@ -13,6 +14,11 @@
               <e p="C_EasyButtonTemplate.cs" t="Include" />
               <e p="C_EasyJoystickTemplate.cs" t="Include" />
               <e p="C_EasyTouchTemplate.cs" t="Include" />
+            </e>
+            <e p="_Java-Event-Template" t="Include">
+              <e p="J_EasyButtonTemplate.js" t="Include" />
+              <e p="J_EasyJoystickTemplate.js" t="Include" />
+              <e p="J_EasyTouchTemplate.js" t="Include" />
             </e>
             <e p="EasyButton.cs" t="Include" />
             <e p="EasyJoystick.cs" t="Include" />

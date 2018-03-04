@@ -13,7 +13,7 @@ public class ShadowDetect : MonoBehaviour
 
 	// Update is called once per frame
 	void Update () {
-		DetectShadow();
+		
 	}
 
 	public bool DetectShadow()
@@ -35,7 +35,9 @@ public class ShadowDetect : MonoBehaviour
 			//设置射线只检测"terrain"层
 			int layer = LayerMask.NameToLayer("ignore");
 			//碰撞信息，用于调试
-			RaycastHit raycastHit;Debug.Log(layer);
+			
+			RaycastHit raycastHit;
+			Debug.Log("reach");
 			if (Physics.Raycast(ray, out raycastHit, Mathf.Infinity,~(1<<layer)))
 			{
 //				// 如果射线与平面碰撞，打印碰撞物体信息
@@ -43,6 +45,7 @@ public class ShadowDetect : MonoBehaviour
 //				// 在场景视图中绘制射线
 //				Debug.DrawLine(ray.origin, raycastHit.point, Color.red);
 				//发生碰撞，有阴影
+				Debug.Log("阴影");
 				return true;
 			}
 		}

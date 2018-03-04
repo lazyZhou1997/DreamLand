@@ -2,10 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="39af83aa-9f01-45f1-bc7b-de33d26dd208" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.DreamLand/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.DreamLand/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scene/game1.unity" afterPath="$PROJECT_DIR$/Assets/Scene/game1.unity" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/GameBegin.cs" afterPath="$PROJECT_DIR$/Assets/Script/GameBegin.cs" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/GameOver.cs" afterPath="$PROJECT_DIR$/Assets/Script/GameOver.cs" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/LeanTouch/Editor.meta" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.idea.DreamLand/.idea/contentModel.xml" afterPath="$PROJECT_DIR$/.idea/.idea.DreamLand/.idea/contentModel.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.idea.DreamLand/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.DreamLand/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Models/VuforiaMars_ModelTarget/ddcf29fe83b64ee984697b36afc5e823/Model.prefab" afterPath="$PROJECT_DIR$/Assets/Models/VuforiaMars_ModelTarget/ddcf29fe83b64ee984697b36afc5e823/Model.prefab" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Models/VuforiaMars_ModelTarget/ddcf29fe83b64ee984697b36afc5e823/Model.prefab.meta" afterPath="$PROJECT_DIR$/Assets/Models/VuforiaMars_ModelTarget/ddcf29fe83b64ee984697b36afc5e823/Model.prefab.meta" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Scene/game1.unity" afterPath="$PROJECT_DIR$/Assets/Scene/game1.unity" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Script/GameBegin.cs" afterPath="$PROJECT_DIR$/Assets/Script/GameBegin.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Script/GameOver.cs" afterPath="$PROJECT_DIR$/Assets/Script/GameOver.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Script/ShadowDetect.cs" afterPath="$PROJECT_DIR$/Assets/Script/ShadowDetect.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/QCAR/somedata16" afterPath="$PROJECT_DIR$/QCAR/somedata16" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,79 +26,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="GameControl.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Script/GameControl.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="828">
-              <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RotateByTouch.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Script/RotateByTouch.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2592">
-              <caret line="75" column="0" lean-forward="false" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
-              <folding>
-                <marker date="1520064419911" expanded="false" signature="6:96" ph="..." />
-                <marker date="1520064419911" expanded="true" signature="141:2370" ph="{...}" />
-                <marker date="1520064419911" expanded="true" signature="206:350" ph="{...}" />
-                <marker date="1520064419911" expanded="true" signature="212:268" ph="/* Hook events ... */" />
-                <marker date="1520064419911" expanded="true" signature="388:534" ph="{...}" />
-                <marker date="1520064419911" expanded="true" signature="394:452" ph="/* Unhook events ... */" />
-                <marker date="1520064419911" expanded="true" signature="583:590" ph="{...}" />
-                <marker date="1520064419911" expanded="true" signature="645:652" ph="{...}" />
-                <marker date="1520064419911" expanded="true" signature="654:824" ph="/*&#9;/// 指头按下的时候，记录第一个指头的位置 ... */" />
-                <marker date="1520064419911" expanded="true" signature="827:920" ph="/// 当指头保持在屏幕上时，控制TransForm进行旋转 ... " />
-                <marker date="1520064419911" expanded="true" signature="960:1580" ph="{...}" />
-                <marker date="1520064419911" expanded="true" signature="1318:1407" ph="{...}" />
-                <marker date="1520064419911" expanded="true" signature="1414:1576" ph="{...}" />
-                <marker date="1520064419911" expanded="true" signature="1643:1964" ph="{...}" />
-                <marker date="1520064419911" expanded="true" signature="1967:2083" ph="/// 如果传入的参数为0，则将其值更改为0.001 ... " />
-                <marker date="1520064419911" expanded="true" signature="2119:2199" ph="{...}" />
-                <marker date="1520064419911" expanded="true" signature="2138:2164" ph="{...}" />
-                <marker date="1520064419911" expanded="true" signature="2171:2196" ph="{...}" />
-                <marker date="1520064419911" expanded="true" signature="2201:2368" ph="/*&#9;/// 指头离开屏幕的时候，清空指头记录 ... */" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ShadowDetect.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Script/ShadowDetect.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="756">
-              <caret line="21" column="9" lean-forward="false" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
-              <folding>
-                <marker date="1520084615379" expanded="true" signature="61:1144" ph="{...}" />
-                <marker date="1520084615379" expanded="true" signature="256:278" ph="{...}" />
-                <marker date="1520084615379" expanded="true" signature="307:1142" ph="{...}" />
-                <marker date="1520084615379" expanded="true" signature="464:1107" ph="{...}" />
-                <marker date="1520084615379" expanded="true" signature="568:717" ph="/* Debug.Log(light_Direction); ... */" />
-                <marker date="1520084615379" expanded="true" signature="896:1103" ph="{...}" />
-                <marker date="1520084615379" expanded="true" signature="902:1081" ph="/* 如果射线与平面碰撞，打印碰撞物体信息 ... */" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GameBegin.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="GameBegin.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Script/GameBegin.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="11" column="17" lean-forward="false" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+            <state relative-caret-position="634">
+              <caret line="46" column="28" lean-forward="false" selection-start-line="46" selection-start-column="28" selection-end-line="46" selection-end-column="28" />
               <folding>
-                <marker date="1520126530442" expanded="true" signature="6:100" ph="..." />
-                <marker date="1520126530442" expanded="true" signature="140:783" ph="{...}" />
-                <marker date="1520126530442" expanded="true" signature="229:277" ph="/// 获取当前游戏已经经过的时间 ... " />
-                <marker date="1520126530442" expanded="true" signature="297:328" ph="{...}" />
-                <marker date="1520126530442" expanded="true" signature="414:480" ph="{...}" />
-                <marker date="1520126530442" expanded="true" signature="504:593" ph="{...}" />
-                <marker date="1520126530442" expanded="true" signature="538:590" ph="{...}" />
-                <marker date="1520126530442" expanded="true" signature="596:678" ph="/// 离开起点，设置标志开始游戏 ... " />
-                <marker date="1520126530442" expanded="true" signature="722:779" ph="{...}" />
+                <marker date="1520147739135" expanded="true" signature="6:114" ph="..." />
+                <marker date="1520147739135" expanded="true" signature="154:960" ph="{...}" />
+                <marker date="1520147739135" expanded="true" signature="243:291" ph="/// 获取当前游戏已经经过的时间 ... " />
+                <marker date="1520147739135" expanded="true" signature="311:342" ph="{...}" />
+                <marker date="1520147739135" expanded="true" signature="428:494" ph="{...}" />
+                <marker date="1520147739135" expanded="true" signature="518:770" ph="{...}" />
+                <marker date="1520147739135" expanded="true" signature="552:767" ph="{...}" />
+                <marker date="1520147739135" expanded="true" signature="773:855" ph="/// 离开起点，设置标志开始游戏 ... " />
+                <marker date="1520147739135" expanded="true" signature="899:956" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -100,14 +49,54 @@
       <file leaf-file-name="GameOver.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Script/GameOver.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="864">
-              <caret line="26" column="29" lean-forward="false" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
+            <state relative-caret-position="552">
+              <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
               <folding>
-                <marker date="1520125754614" expanded="false" signature="6:78" ph="..." />
-                <marker date="1520125754614" expanded="true" signature="117:464" ph="{...}" />
-                <marker date="1520125754614" expanded="true" signature="211:271" ph="{...}" />
-                <marker date="1520125754614" expanded="true" signature="326:333" ph="{...}" />
-                <marker date="1520125754614" expanded="true" signature="379:462" ph="{...}" />
+                <marker date="1520148281654" expanded="true" signature="6:78" ph="..." />
+                <marker date="1520148281654" expanded="true" signature="117:410" ph="{...}" />
+                <marker date="1520148281654" expanded="true" signature="210:217" ph="{...}" />
+                <marker date="1520148281654" expanded="true" signature="272:279" ph="{...}" />
+                <marker date="1520148281654" expanded="true" signature="325:408" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MoveController.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Script/MoveController.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="578">
+              <caret line="93" column="13" lean-forward="false" selection-start-line="93" selection-start-column="13" selection-end-line="93" selection-end-column="13" />
+              <folding>
+                <marker date="1520093010538" expanded="false" signature="6:45" ph="..." />
+                <marker date="1520093010538" expanded="true" signature="92:1604" ph="{...}" />
+                <marker date="1520093010538" expanded="true" signature="280:334" ph="{...}" />
+                <marker date="1520093010538" expanded="true" signature="353:571" ph="{...}" />
+                <marker date="1520093010538" expanded="true" signature="637:701" ph="{...}" />
+                <marker date="1520093010538" expanded="true" signature="759:916" ph="{...}" />
+                <marker date="1520093010538" expanded="true" signature="824:854" ph="{...}" />
+                <marker date="1520093010538" expanded="true" signature="974:1601" ph="{...}" />
+                <marker date="1520093010538" expanded="true" signature="1021:1040" ph="{...}" />
+                <marker date="1520093010538" expanded="true" signature="1199:1597" ph="{...}" />
+                <marker date="1520093010538" expanded="true" signature="1423:1523" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ShadowDetect.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Script/ShadowDetect.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="603">
+              <caret line="39" column="31" lean-forward="true" selection-start-line="39" selection-start-column="31" selection-end-line="39" selection-end-column="31" />
+              <folding>
+                <marker date="1520149242456" expanded="true" signature="61:1160" ph="{...}" />
+                <marker date="1520149242456" expanded="true" signature="256:263" ph="{...}" />
+                <marker date="1520149242456" expanded="true" signature="292:1158" ph="{...}" />
+                <marker date="1520149242456" expanded="true" signature="449:1123" ph="{...}" />
+                <marker date="1520149242456" expanded="true" signature="553:702" ph="/* Debug.Log(light_Direction); ... */" />
+                <marker date="1520149242456" expanded="true" signature="891:1119" ph="{...}" />
+                <marker date="1520149242456" expanded="true" signature="897:1076" ph="/* 如果射线与平面碰撞，打印碰撞物体信息 ... */" />
               </folding>
             </state>
           </provider>
@@ -119,23 +108,10 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/73F4CCE3-51A9-454B-85BA-2899CA601133/b5/2b360f38/Time.cs" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/../study/Assets/Standard Assets/Characters/ThirdPersonCharacter/Scripts/ThirdPersonUserControl.cs" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/Assets/Script/MoveController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/73F4CCE3-51A9-454B-85BA-2899CA601133/5a/b13f1000/Camera.cs" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/Assets/Script/GameOver.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Script/GameSetting.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Script/CharacterDirectionController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/73F4CCE3-51A9-454B-85BA-2899CA601133/9e/c53200e6/Transform.cs" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/Assets/Script/GameControl.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/73F4CCE3-51A9-454B-85BA-2899CA601133/3f/db2c91f6/Vector3.cs" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/Assets/Script/RotateByTouch.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Script/MusicControl.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/EasyTouch/Plugins/Editor/GUIEasyTouchInspector.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Script/ShadowDetect.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/GameBegin.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Vuforia/Scripts/DefaultTrackableEventHandler.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Script/Timer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/MoveController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/ShadowDetect.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/GameOver.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -156,9 +132,9 @@
         <option value="$PROJECT_DIR$/Assets/Script/MoveController.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/RotateByTouch.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/CameraRunTime.cs" />
-        <option value="$PROJECT_DIR$/Assets/Script/ShadowDetect.cs" />
-        <option value="$PROJECT_DIR$/Assets/Script/GameOver.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/GameBegin.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/GameOver.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/ShadowDetect.cs" />
       </list>
     </option>
   </component>
@@ -168,9 +144,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="width" value="1920" />
-    <option name="height" value="1080" />
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1680" />
+    <option name="height" value="1050" />
   </component>
   <component name="ProjectView">
     <navigator currentView="SolutionExplorer" proportions="" version="1">
@@ -187,30 +163,13 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="SolutionExplorer">
         <subPane>
           <expand>
             <path>
               <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="DreamLand (3 projects)" type="977d5f41:SolutionExplorerNodeRider" />
-            </path>
-            <path>
-              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="DreamLand (3 projects)" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Assembly-CSharp" type="977d5f41:SolutionExplorerNodeRider" />
-            </path>
-            <path>
-              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="DreamLand (3 projects)" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Assembly-CSharp" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Assets" type="977d5f41:SolutionExplorerNodeRider" />
-            </path>
-            <path>
-              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="DreamLand (3 projects)" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Assembly-CSharp" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Assets" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Script" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="DreamLand (4 projects)" type="977d5f41:SolutionExplorerNodeRider" />
             </path>
           </expand>
           <select />
@@ -218,7 +177,6 @@
         <option name="show-file-system" value="false" />
         <option name="show-all-items" value="false" />
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -236,7 +194,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Unity Debug.Attach to Unity Editor">
     <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" />
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
@@ -269,11 +227,12 @@
       <workItem from="1520060565639" duration="6282000" />
       <workItem from="1520125444755" duration="514000" />
       <workItem from="1520126249461" duration="596000" />
+      <workItem from="1520147518410" duration="1237000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43977000" />
+    <option name="totallyTimeSpent" value="45214000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -285,7 +244,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
+    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -296,16 +256,17 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.4796334" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5203666" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -321,360 +282,117 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Assets/Script/GameControl.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Script/MusicControl.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Script/GameSetting.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Script/MoveController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2340">
-          <caret line="65" column="0" lean-forward="false" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Script/GameControl.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Script/MusicControl.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Script/GameSetting.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1440">
-          <caret line="43" column="22" lean-forward="false" selection-start-line="43" selection-start-column="22" selection-end-line="43" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/EasyTouch/Plugins/Editor/GUIEasyTouchInspector.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="13" column="57" lean-forward="false" selection-start-line="13" selection-start-column="57" selection-end-line="13" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../study/Assets/Standard Assets/Characters/ThirdPersonCharacter/Scripts/ThirdPersonUserControl.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Script/MoveController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="792">
-          <caret line="24" column="8" lean-forward="false" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Script/GameControl.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Script/MusicControl.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Script/GameSetting.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1440">
-          <caret line="43" column="22" lean-forward="false" selection-start-line="43" selection-start-column="22" selection-end-line="43" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/EasyTouch/Plugins/Editor/GUIEasyTouchInspector.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="13" column="57" lean-forward="false" selection-start-line="13" selection-start-column="57" selection-end-line="13" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../study/Assets/Standard Assets/Characters/ThirdPersonCharacter/Scripts/ThirdPersonUserControl.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Script/MoveController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2772">
-          <caret line="79" column="28" lean-forward="false" selection-start-line="79" selection-start-column="28" selection-end-line="79" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Script/GameControl.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Script/MusicControl.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Script/GameSetting.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1440">
-          <caret line="43" column="22" lean-forward="false" selection-start-line="43" selection-start-column="22" selection-end-line="43" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Script/MoveController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2520">
-          <caret line="70" column="0" lean-forward="false" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../study/Assets/Standard Assets/Characters/ThirdPersonCharacter/Scripts/ThirdPersonUserControl.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Script/GameControl.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Script/MusicControl.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Script/GameSetting.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1548">
-          <caret line="43" column="22" lean-forward="false" selection-start-line="43" selection-start-column="22" selection-end-line="43" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Script/GameControl.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Script/GameControl.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Script/MusicControl.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Script/GameSetting.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Script/MoveController.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Script/GameControl.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Script/MusicControl.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Script/GameSetting.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/EasyTouch/Plugins/Editor/GUIEasyTouchInspector.cs" />
+    <entry file="file://$PROJECT_DIR$/../study/Assets/Standard Assets/Characters/ThirdPersonCharacter/Scripts/ThirdPersonUserControl.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Script/MoveController.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Script/GameControl.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Script/MusicControl.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Script/GameSetting.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/EasyTouch/Plugins/Editor/GUIEasyTouchInspector.cs" />
+    <entry file="file://$PROJECT_DIR$/../study/Assets/Standard Assets/Characters/ThirdPersonCharacter/Scripts/ThirdPersonUserControl.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Script/MoveController.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Script/GameControl.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Script/MusicControl.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Script/GameSetting.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Script/MoveController.cs" />
+    <entry file="file://$PROJECT_DIR$/../study/Assets/Standard Assets/Characters/ThirdPersonCharacter/Scripts/ThirdPersonUserControl.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Script/GameControl.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Script/MusicControl.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Script/GameSetting.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Script/GameControl.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Script/InitialGameScene.cs" />
-    <entry file="file://$PROJECT_DIR$/../study/Assets/Standard Assets/Characters/ThirdPersonCharacter/Scripts/ThirdPersonUserControl.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="5" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/EasyTouch/Plugins/Editor/GUIEasyTouchInspector.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="13" column="57" lean-forward="false" selection-start-line="13" selection-start-column="57" selection-end-line="13" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../study/Assets/Standard Assets/Characters/ThirdPersonCharacter/Scripts/ThirdPersonUserControl.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/EasyTouch/Plugins/Editor/GUIEasyTouchInspector.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Script/ThirdPersonUserControl.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Script/ThirdPersonCharacter.cs" />
-    <entry file="file://$PROJECT_DIR$/Assets/Script/GameSetting.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Script/GameSetting.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Script/CharacterController.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Script/CharacterDerectionController.cs" />
-    <entry file="file://$PROJECT_DIR$/Assets/Vuforia/Scripts/DefaultTrackableEventHandler.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3184">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Vuforia/Scripts/DefaultTrackableEventHandler.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Script/ShadowDetect1.cs" />
-    <entry file="file://$PROJECT_DIR$/Assets/Script/MusicControl.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/73F4CCE3-51A9-454B-85BA-2899CA601133/b5/2b360f38/Time.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="29" column="31" lean-forward="false" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Script/MusicControl.cs" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/73F4CCE3-51A9-454B-85BA-2899CA601133/b5/2b360f38/Time.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Script/ChangeLightController.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Script/LoadDevelopingScene.cs" />
-    <entry file="file://$PROJECT_DIR$/Assets/Script/MoveController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="452">
-          <caret line="83" column="0" lean-forward="false" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/73F4CCE3-51A9-454B-85BA-2899CA601133/3f/db2c91f6/Vector3.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="670" column="26" lean-forward="false" selection-start-line="670" selection-start-column="26" selection-end-line="670" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/73F4CCE3-51A9-454B-85BA-2899CA601133/9e/c53200e6/Transform.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="460" column="18" lean-forward="false" selection-start-line="460" selection-start-column="18" selection-end-line="460" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Script/CharacterDirectionController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Script/Timer.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="5" column="18" lean-forward="false" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/73F4CCE3-51A9-454B-85BA-2899CA601133/3f/db2c91f6/Vector3.cs" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/73F4CCE3-51A9-454B-85BA-2899CA601133/9e/c53200e6/Transform.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Script/CharacterDirectionController.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Script/Timer.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Script/CameraRunTime.cs" />
-    <entry file="file://$PROJECT_DIR$/Assets/Script/GameControl.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Script/GameControl.cs" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/73F4CCE3-51A9-454B-85BA-2899CA601133/5a/b13f1000/Camera.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Script/RotateByTouch.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Script/GameBegin.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="828">
-          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/73F4CCE3-51A9-454B-85BA-2899CA601133/5a/b13f1000/Camera.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="188" column="22" lean-forward="false" selection-start-line="188" selection-start-column="22" selection-end-line="188" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Script/RotateByTouch.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2592">
-          <caret line="75" column="0" lean-forward="false" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
+        <state relative-caret-position="634">
+          <caret line="46" column="28" lean-forward="false" selection-start-line="46" selection-start-column="28" selection-end-line="46" selection-end-column="28" />
           <folding>
-            <marker date="1520064419911" expanded="false" signature="6:96" ph="..." />
-            <marker date="1520064419911" expanded="true" signature="141:2370" ph="{...}" />
-            <marker date="1520064419911" expanded="true" signature="206:350" ph="{...}" />
-            <marker date="1520064419911" expanded="true" signature="212:268" ph="/* Hook events ... */" />
-            <marker date="1520064419911" expanded="true" signature="388:534" ph="{...}" />
-            <marker date="1520064419911" expanded="true" signature="394:452" ph="/* Unhook events ... */" />
-            <marker date="1520064419911" expanded="true" signature="583:590" ph="{...}" />
-            <marker date="1520064419911" expanded="true" signature="645:652" ph="{...}" />
-            <marker date="1520064419911" expanded="true" signature="654:824" ph="/*&#9;/// 指头按下的时候，记录第一个指头的位置 ... */" />
-            <marker date="1520064419911" expanded="true" signature="827:920" ph="/// 当指头保持在屏幕上时，控制TransForm进行旋转 ... " />
-            <marker date="1520064419911" expanded="true" signature="960:1580" ph="{...}" />
-            <marker date="1520064419911" expanded="true" signature="1318:1407" ph="{...}" />
-            <marker date="1520064419911" expanded="true" signature="1414:1576" ph="{...}" />
-            <marker date="1520064419911" expanded="true" signature="1643:1964" ph="{...}" />
-            <marker date="1520064419911" expanded="true" signature="1967:2083" ph="/// 如果传入的参数为0，则将其值更改为0.001 ... " />
-            <marker date="1520064419911" expanded="true" signature="2119:2199" ph="{...}" />
-            <marker date="1520064419911" expanded="true" signature="2138:2164" ph="{...}" />
-            <marker date="1520064419911" expanded="true" signature="2171:2196" ph="{...}" />
-            <marker date="1520064419911" expanded="true" signature="2201:2368" ph="/*&#9;/// 指头离开屏幕的时候，清空指头记录 ... */" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Script/ShadowDetect.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="756">
-          <caret line="21" column="9" lean-forward="false" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
-          <folding>
-            <marker date="1520084615379" expanded="true" signature="61:1144" ph="{...}" />
-            <marker date="1520084615379" expanded="true" signature="256:278" ph="{...}" />
-            <marker date="1520084615379" expanded="true" signature="307:1142" ph="{...}" />
-            <marker date="1520084615379" expanded="true" signature="464:1107" ph="{...}" />
-            <marker date="1520084615379" expanded="true" signature="568:717" ph="/* Debug.Log(light_Direction); ... */" />
-            <marker date="1520084615379" expanded="true" signature="896:1103" ph="{...}" />
-            <marker date="1520084615379" expanded="true" signature="902:1081" ph="/* 如果射线与平面碰撞，打印碰撞物体信息 ... */" />
+            <marker date="1520147739135" expanded="true" signature="6:114" ph="..." />
+            <marker date="1520147739135" expanded="true" signature="154:960" ph="{...}" />
+            <marker date="1520147739135" expanded="true" signature="243:291" ph="/// 获取当前游戏已经经过的时间 ... " />
+            <marker date="1520147739135" expanded="true" signature="311:342" ph="{...}" />
+            <marker date="1520147739135" expanded="true" signature="428:494" ph="{...}" />
+            <marker date="1520147739135" expanded="true" signature="518:770" ph="{...}" />
+            <marker date="1520147739135" expanded="true" signature="552:767" ph="{...}" />
+            <marker date="1520147739135" expanded="true" signature="773:855" ph="/// 离开起点，设置标志开始游戏 ... " />
+            <marker date="1520147739135" expanded="true" signature="899:956" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Script/GameOver.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="864">
-          <caret line="26" column="29" lean-forward="false" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
+        <state relative-caret-position="552">
+          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
           <folding>
-            <marker date="1520125754614" expanded="false" signature="6:78" ph="..." />
-            <marker date="1520125754614" expanded="true" signature="117:464" ph="{...}" />
-            <marker date="1520125754614" expanded="true" signature="211:271" ph="{...}" />
-            <marker date="1520125754614" expanded="true" signature="326:333" ph="{...}" />
-            <marker date="1520125754614" expanded="true" signature="379:462" ph="{...}" />
+            <marker date="1520148281654" expanded="true" signature="6:78" ph="..." />
+            <marker date="1520148281654" expanded="true" signature="117:410" ph="{...}" />
+            <marker date="1520148281654" expanded="true" signature="210:217" ph="{...}" />
+            <marker date="1520148281654" expanded="true" signature="272:279" ph="{...}" />
+            <marker date="1520148281654" expanded="true" signature="325:408" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Script/GameBegin.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Script/MoveController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="11" column="17" lean-forward="false" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        <state relative-caret-position="578">
+          <caret line="93" column="13" lean-forward="false" selection-start-line="93" selection-start-column="13" selection-end-line="93" selection-end-column="13" />
           <folding>
-            <marker date="1520126530442" expanded="true" signature="6:100" ph="..." />
-            <marker date="1520126530442" expanded="true" signature="140:783" ph="{...}" />
-            <marker date="1520126530442" expanded="true" signature="229:277" ph="/// 获取当前游戏已经经过的时间 ... " />
-            <marker date="1520126530442" expanded="true" signature="297:328" ph="{...}" />
-            <marker date="1520126530442" expanded="true" signature="414:480" ph="{...}" />
-            <marker date="1520126530442" expanded="true" signature="504:593" ph="{...}" />
-            <marker date="1520126530442" expanded="true" signature="538:590" ph="{...}" />
-            <marker date="1520126530442" expanded="true" signature="596:678" ph="/// 离开起点，设置标志开始游戏 ... " />
-            <marker date="1520126530442" expanded="true" signature="722:779" ph="{...}" />
+            <marker date="1520093010538" expanded="false" signature="6:45" ph="..." />
+            <marker date="1520093010538" expanded="true" signature="92:1604" ph="{...}" />
+            <marker date="1520093010538" expanded="true" signature="280:334" ph="{...}" />
+            <marker date="1520093010538" expanded="true" signature="353:571" ph="{...}" />
+            <marker date="1520093010538" expanded="true" signature="637:701" ph="{...}" />
+            <marker date="1520093010538" expanded="true" signature="759:916" ph="{...}" />
+            <marker date="1520093010538" expanded="true" signature="824:854" ph="{...}" />
+            <marker date="1520093010538" expanded="true" signature="974:1601" ph="{...}" />
+            <marker date="1520093010538" expanded="true" signature="1021:1040" ph="{...}" />
+            <marker date="1520093010538" expanded="true" signature="1199:1597" ph="{...}" />
+            <marker date="1520093010538" expanded="true" signature="1423:1523" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Script/ShadowDetect.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="603">
+          <caret line="39" column="31" lean-forward="true" selection-start-line="39" selection-start-column="31" selection-end-line="39" selection-end-column="31" />
+          <folding>
+            <marker date="1520149242456" expanded="true" signature="61:1160" ph="{...}" />
+            <marker date="1520149242456" expanded="true" signature="256:263" ph="{...}" />
+            <marker date="1520149242456" expanded="true" signature="292:1158" ph="{...}" />
+            <marker date="1520149242456" expanded="true" signature="449:1123" ph="{...}" />
+            <marker date="1520149242456" expanded="true" signature="553:702" ph="/* Debug.Log(light_Direction); ... */" />
+            <marker date="1520149242456" expanded="true" signature="891:1119" ph="{...}" />
+            <marker date="1520149242456" expanded="true" signature="897:1076" ph="/* 如果射线与平面碰撞，打印碰撞物体信息 ... */" />
           </folding>
         </state>
       </provider>

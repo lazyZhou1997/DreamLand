@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -39,6 +40,11 @@ public class GameBegin : MonoBehaviour
 		{
 			//计算已经经过的时间
 			_timer += Time.deltaTime;
+			
+			//将经过时间显示到屏幕上
+			ShowTimeText.text = Convert.ToString((int) _timer / 60) +
+			                ":" +
+			                Convert.ToString((int) _timer % 60);
 		}
 	}
 
