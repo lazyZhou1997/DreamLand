@@ -1,6 +1,6 @@
 fileFormatVersion: 2
-guid: 80e31561893c143b99fab92e63a68e12
-timeCreated: 1520170757
+guid: 94edb571495734e928f915ed43deac48
+timeCreated: 1520319553
 licenseType: Free
 ModelImporter:
   serializedVersion: 22
@@ -12,11 +12,29 @@ ModelImporter:
     100008: pCylinder7
     100010: pCylinder8
     100012: pCylinder9
-    100014: transform150
-    100016: transform151
-    100018: transform152
-    100020: transform153
-    100022: transform154
+    100014: polySurface149
+    100016: polySurface149 1
+    100018: polySurface150
+    100020: polySurface151
+    100022: polySurface152
+    100024: polySurface153
+    100026: polySurface154
+    100028: pSphere12
+    100030: pSphere13
+    100032: transform150
+    100034: transform151
+    100036: transform152
+    100038: transform153
+    100040: transform154
+    100042: transform188
+    100044: transform189
+    100046: transform190
+    100048: transform191
+    100050: transform192
+    100052: transform193
+    100054: transform194
+    100056: transform195
+    100058: transform196
     400000: //RootNode
     400002: pCone1
     400004: pCylinder10
@@ -24,15 +42,33 @@ ModelImporter:
     400008: pCylinder7
     400010: pCylinder8
     400012: pCylinder9
-    400014: transform150
-    400016: transform151
-    400018: transform152
-    400020: transform153
-    400022: transform154
+    400014: polySurface149
+    400016: polySurface149 1
+    400018: polySurface150
+    400020: polySurface151
+    400022: polySurface152
+    400024: polySurface153
+    400026: polySurface154
+    400028: pSphere12
+    400030: pSphere13
+    400032: transform150
+    400034: transform151
+    400036: transform152
+    400038: transform153
+    400040: transform154
+    400042: transform188
+    400044: transform189
+    400046: transform190
+    400048: transform191
+    400050: transform192
+    400052: transform193
+    400054: transform194
+    400056: transform195
+    400058: transform196
     2100000: lambert1
-    2300000: pCylinder11
-    3300000: pCylinder11
-    4300000: pCylinder11
+    2300000: pSphere13
+    3300000: pSphere13
+    4300000: pSphere13
     9500000: //RootNode
   externalObjects: {}
   materials:
