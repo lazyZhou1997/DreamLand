@@ -12,6 +12,9 @@ public class GameBegin : MonoBehaviour
 
 	//显示当前时间的Text
 	public Text ShowTimeText;
+	
+	//开始计时标志
+	private bool _beginGame;
 
 	/// <summary>
 	/// 获取当前游戏已经经过的时间
@@ -21,8 +24,13 @@ public class GameBegin : MonoBehaviour
 		get { return _timer; }
 	}
 
-	//开始计时标志
-	private bool _beginGame;
+	/// <summary>
+	/// 设置游戏是否开始
+	/// </summary>
+	public bool BeginGame
+	{
+		set { _beginGame = value; }
+	}
 
 	// Use this for initialization
 	void Start () {
@@ -32,6 +40,7 @@ public class GameBegin : MonoBehaviour
 		//计时初始化
 		_timer = 0;
 	}
+	
 
 	private void Update()
 	{

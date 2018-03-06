@@ -7,6 +7,7 @@ public class RotateByTouch : MonoBehaviour {
 
 	//转动速度
 	public int Speed;
+	
 
 	protected virtual void OnEnable()
 	{
@@ -75,6 +76,7 @@ public class RotateByTouch : MonoBehaviour {
 			Vector3 orthForward = OrthVector3(transform.forward,Vector3.up);
 
 			transform.Rotate(orthForward,y*Speed*Time.deltaTime,Space.World);
+			
 		}
 
 	}

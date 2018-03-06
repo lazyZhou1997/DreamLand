@@ -44,13 +44,13 @@ MonoBehaviour:
       ContainsMagnet: 0
   databaseLoad:
     dataSetsToLoad:
-    - DreamLand
     - VuforiaMars_Images
     - VuforiaMars_VuMark
+    - DreamLand
     dataSetsToActivate:
-    - DreamLand
     - VuforiaMars_Images
     - VuforiaMars_VuMark
+    - DreamLand
   videoBackground:
     clippingMode: 0
     numDivisions: 2
