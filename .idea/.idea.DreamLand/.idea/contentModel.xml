@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="$USER_HOME$/Library/Caches/Rider2017.2/resharper-host/local/Transient/ReSharperHost/v10/SolutionCaches/_DreamLand.-1975188453.00" t="ExcludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/Rider2017.3/resharper-host/local/Transient/ReSharperHost/v11/SolutionCaches/_DreamLand.-1975188453.00" t="ExcludeRecursive" />
     <e p="$PROJECT_DIR$" t="IncludeRecursive">
       <e p="Assembly-CSharp-Editor-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
@@ -95,10 +95,13 @@
           <e p="GameControl.cs" t="Include" />
           <e p="GameOver.cs" t="Include" />
           <e p="GameSetting.cs" t="Include" />
+          <e p="LightIndicator.cs" t="Include" />
           <e p="MoveController.cs" t="Include" />
           <e p="MusicControl.cs" t="Include" />
           <e p="RotateByTouch.cs" t="Include" />
+          <e p="ServerConnect.cs" t="Include" />
           <e p="ShadowDetect.cs" t="Include" />
+          <e p="ShowRank.cs" t="Include" />
           <e p="Timer.cs" t="Include" />
         </e>
         <e p="StreamingAssets" t="Include">
